@@ -6,10 +6,16 @@
 
  Pre-compiled installation: double-click on NoMixedLineEndings/bin/Release/NoMixedLineEndings.vsix.
 
- From source, you can also change constant 'TRIM_END_OF_LINES_TOO' to 'true' and recompile:
+ From source, you can also change the constant 'TRIM_END_OF_LINES_TOO' to 'true' and recompile:
  doing so makes the extension also trim whitespace at the end of the lines and ensure the file
  ends in a newline.
 
  A small issue with this extension (and likely many others) is that it might take some time after
  opening a solution to have the extension loaded.  If you modify and save a file quickly, it might
  be saved when the extension is not loaded yet.
+
+## Coming from...
+
+ This is all MIT-Licensed code.  Parts of it are copy-pasted from the old extension
+ https://github.com/idct-tech/vs-trim-line-ends-on-save-plugin
+ that I think only works on VS up to 2015.  Thanks to idct-tech!
