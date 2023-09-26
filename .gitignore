@@ -1,4 +1,8 @@
 
-.vs/
-NoMixedLineEndings/bin/Debug/
-NoMixedLineEndings/obj/
+VS2019/.vs/
+VS2019/NoMixedLineEndings/bin/Debug/
+VS2019/NoMixedLineEndings/obj/
+
+VS2022/.vs/
+VS2022/bin/Debug/
+VS2022/obj/
