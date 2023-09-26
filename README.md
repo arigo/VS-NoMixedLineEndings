@@ -4,9 +4,9 @@
  modified at all.  The choice of turning the file into LF (and not CRLF) is because some Visual Studio
  editing operations introduce CRLFs even in fully LF files, so you can easily get mixed files that way.
 
- Pre-compiled installation for Visual Studio 2019: double-click on VS2019/NoMixedLineEndings/bin/Release/NoMixedLineEndings.vsix.
+ **Pre-compiled installation for Visual Studio 2019:** double-click on VS2019/NoMixedLineEndings/bin/Release/NoMixedLineEndings.vsix.
 
- Pre-compiled installation for Visual Studio 2022: double-click on VS2022/bin/Release/VS2022-NoMixedLineEndings.vsix.
+ **Pre-compiled installation for Visual Studio 2022:** double-click on VS2022/bin/Release/VS2022-NoMixedLineEndings.vsix.
 
  From source, you can also change the constant 'TRIM_END_OF_LINES_TOO' to 'true' and recompile:
  doing so makes the extension also trim whitespace at the end of the lines and ensure the file
