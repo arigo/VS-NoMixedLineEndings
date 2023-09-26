@@ -1,10 +1,12 @@
 # VS-NoMixedLineEndings
- Visual Studio 2019 extension: never save a file with mixed CRLF and LF line endings.  Mixed files are
+ Visual Studio 2019 or 2022 extension: never save a file with mixed CRLF and LF line endings.  Mixed files are
  turned into fully LF files upon save.  If the file also contains CR-only line endings, it is not
  modified at all.  The choice of turning the file into LF (and not CRLF) is because some Visual Studio
  editing operations introduce CRLFs even in fully LF files, so you can easily get mixed files that way.
 
- Pre-compiled installation: double-click on NoMixedLineEndings/bin/Release/NoMixedLineEndings.vsix.
+ Pre-compiled installation for Visual Studio 2019: double-click on VS2019/NoMixedLineEndings/bin/Release/NoMixedLineEndings.vsix.
+
+ Pre-compiled installation for Visual Studio 2022: double-click on VS2022/bin/Release/VS2022-NoMixedLineEndings.vsix.
 
  From source, you can also change the constant 'TRIM_END_OF_LINES_TOO' to 'true' and recompile:
  doing so makes the extension also trim whitespace at the end of the lines and ensure the file
